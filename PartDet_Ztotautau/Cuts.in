@@ -32,13 +32,13 @@ NGenTau		0  -1
 ***NRecoTriggers1     1   -1   
 ***NRecoTau1	      2    2
 ***NDiTauCombinations	   1   1
-***NRecoMuon1	      0   0   
-***NRecoElectron1        0   0   
 ***METCut	      0   -1   ///met cut
-***NRecoBJet	      0   0
 ***NRecoJet1	      1   -1   
 ***NRecoJet2	      2   -1   
 ***NDiJetCombinations    0   0
+***NRecoMuon1	      0   0   
+***NRecoElectron1        0   0   
+***NRecoBJet	      0   0
 NRecoElectron2	      0  -1
 NRecoMuon2	      0   -1
 NRecoTau2	      0   -1
