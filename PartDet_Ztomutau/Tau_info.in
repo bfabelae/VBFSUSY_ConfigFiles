@@ -32,7 +32,7 @@ TauIDAlgorithm Tau_idDeepTau2017v2p1
 //RECO CUTS///
 
 EtaCut 2.1
-PtCut 60.0 9999.9
+PtCut 20.0 9999.9
 
 DoDzCut false
 DzCutThreshold 0.2
@@ -51,13 +51,13 @@ ProngType  1or3hps
 decayModeFindingNewDMs true
 decayModeFinding false
 
-DoDiscrAgainstElectron true
+DoDiscrAgainstElectron false
 // MVA: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
 DiscrAgainstElectron 32
 SelectTausThatAreElectrons false
 
-DoDiscrAgainstMuon true
+DoDiscrAgainstMuon false
 // MVA: 1 = Loose, 2 = Tight
 // DeepTau: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight
 DiscrAgainstMuon 8
@@ -90,7 +90,7 @@ MetMtCut 0.0    50.0
 //----RECO CUTS----////
 
 EtaCut 2.1
-PtCut 60.0 9999.9
+PtCut 20.0 9999.9
 
 DoDzCut false
 DzCutThreshold 0.2
@@ -109,13 +109,13 @@ ProngType  1or3hps
 decayModeFindingNewDMs true
 decayModeFinding false
 
-DoDiscrAgainstElectron true
+DoDiscrAgainstElectron false
 // MVA: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
 DiscrAgainstElectron 32
 SelectTausThatAreElectrons false
 
-DoDiscrAgainstMuon true
+DoDiscrAgainstMuon false
 // MVA: 1 = Loose, 2 = Tight
 // DeepTau: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight
 DiscrAgainstMuon 8
