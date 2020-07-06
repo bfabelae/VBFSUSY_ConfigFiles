@@ -51,13 +51,13 @@ ProngType  1or3hps
 decayModeFindingNewDMs true
 decayModeFinding false
 
-DoDiscrAgainstElectron true
+DoDiscrAgainstElectron false # Turn off when using DeepTau
 // MVA: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
 DiscrAgainstElectron 32
 SelectTausThatAreElectrons false
 
-DoDiscrAgainstMuon true
+DoDiscrAgainstMuon false # Turn off when using DeepTau
 // MVA: 1 = Loose, 2 = Tight
 // DeepTau: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight
 DiscrAgainstMuon 8
@@ -109,13 +109,13 @@ ProngType  1or3hps
 decayModeFindingNewDMs true
 decayModeFinding false
 
-DoDiscrAgainstElectron true
+DoDiscrAgainstElectron false # Turn off when using DeepTau
 // MVA: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
 DiscrAgainstElectron 32
 SelectTausThatAreElectrons false
 
-DoDiscrAgainstMuon true
+DoDiscrAgainstMuon false # Turn off when using DeepTau
 // MVA: 1 = Loose, 2 = Tight
 // DeepTau: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight
 DiscrAgainstMuon 8
