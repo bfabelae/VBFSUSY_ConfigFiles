@@ -31,6 +31,7 @@ NGenTau		0  -1
 ***NRecoVertex        1   -1   
 ***NRecoTriggers1     1   -1   
 ***NRecoMuon1	      1    1   
+***NRecoMuon2	      0    0
 ***NRecoTau1	      1    1
 ***NMuon1Tau1Combinations        1   1 
 ***METCut	      1   -1   ///met cut
@@ -40,7 +41,6 @@ NGenTau		0  -1
 ***NRecoJet2	      2   -1   
 ***NDiJetCombinations    1   -1    
 NRecoElectron2	      0   -1
-NRecoMuon2	      0    -1
 NRecoTau2	      0    -1
 NRecoCentralJet	      0   -1
 NRecoTriggers2	      0   -1           ///only 0 or 1
