@@ -50,7 +50,7 @@ MetMtCut 0. 50.
 //----RECO CUTS----//
 
 EtaCut 2.1
-PtCut 30.0 9999.9
+PtCut 10.0 30.0
 
 DoDiscrByTightID 1
 DoDiscrBySoftID 0
