@@ -39,7 +39,7 @@ NGenTau		0  -1
 ***NRecoBJet	      0   0    
 ***NRecoJet1	      1   -1   
 ***NRecoJet2	      2   -1   
-***NDiJetCombinations    0   0 
+***NDiJetCombinations    1   -1 
 NRecoElectron2	      0   -1
 NRecoTau2	      0    -1
 NRecoCentralJet	      0   -1
