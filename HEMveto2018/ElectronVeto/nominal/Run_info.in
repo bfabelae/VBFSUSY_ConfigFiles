@@ -30,9 +30,8 @@ ApplyVBFSusyZBoostSF true 		# Weights derived by the VBF SUSY team - Run II
 ApplyL1PrefiringWeight false
 UseJetEMPt false
 
-ApplyHEMVeto2018 true			# Veto events in the nominal HEM15/16 sectors: jet pt > 30 GeV & -1.57 < phi < -0.87 & -3.0 < eta < -1.3              
-ApplySUSY1_HEMVJeteto2018 false   	# Veto events in extended HEM15/16 sectors: jet pt > 30 GeV & -1.77 < phi < -0.67 & -3.2 < eta < -1.2 
-ApplySUSY2_HEMJetVeto2018 false		# Veto events in extended HEM15/16 sectors + deltaPhi(j,MHT) : jet pt > 30 GeV & -1.77 < phi < -0.67 & -3.2 < eta < -1.2 & dPhi(j,MHT) < 0.5
+ApplyHEMVeto2018 false			# Veto events in the nominal HEM15/16 sectors: jet pt > 30 GeV & -1.57 < phi < -0.87 & -3.0 < eta < -1.3              
+ApplyExtendedHEMVeto2018 false		# Veto events in extended HEM15/16 sectors + deltaPhi(j,MHT) : jet pt > 30 GeV & -1.77 < phi < -0.67 & -3.2 < eta < -1.2 & dPhi(j,MHT) < 0.5
 
 /// ------ Data-specific cuts ------///
 FilterDataByGoldenJSON true
