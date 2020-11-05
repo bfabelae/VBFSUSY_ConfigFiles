@@ -1,0 +1,11 @@
+###################################
+            SignalMC
+####################################
+
+ModelTag VBF_EWKino_Higgsino
+MassParameters 100_99p75_99p50
+
+# Model tags: VBF_EWKino_StauDominated
+# Mass parameters: 150_147p50_145p00, 150_125p00_100p00, 300_297p50_295p00, 300_275p00_250p00 
+# Model tags: VBF_EWKino_Higgsino
+# Mass parameters: 100_99p75_99p50, 100_99p50_99p00, 100_95p00_90p00, 100_75p00_50p00
