@@ -10,7 +10,7 @@ MCPUHistName pileup
 
 SpecialMCPUCalculation false
 SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6.root
-# SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6_wanddylo_incl.root
+/// SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6_wanddylo_incl.root
 
 ApplyTauIDSF false
 TauIdSFsByDM false # Tau ID scale factors that are decay mode (DM) - dependent. If using di-tau triggers and tau-pt > 40 GeV, this are the recommended SFs.
@@ -19,23 +19,21 @@ TauSFforEmbeddedSamples false
 ApplyTauAntiEleSF false
 ApplyTauAntiMuSF false
 
+UsePileUpWeight true
+ApplyISRZBoostSF false # Z-boost weight corrections derived for ISR+stau analysis (SUS-19-002)
+ApplySUSYZBoostSF false # Official Z-boost weight corrections derived by the SUSY PAG.
+ApplyVBFSusyZBoostSF true # Weights derived by the VBF SUSY team - Run II
+
 isData false
 ApplyGenWeight  true
-UsePileUpWeight true
-
-ApplyISRZBoostSF false 			# Z-boost weight corrections derived for ISR+stau analysis (SUS-19-002)
-ApplySUSYZBoostSF false 		# Official Z-boost weight corrections derived by the SUSY PAG.
-ApplyVBFSusyZBoostSF true 		# Weights derived by the VBF SUSY team - Run II
 
 ApplyL1PrefiringWeight false
 UseJetEMPt false
 
-ApplyHEMVeto2018 false			# Veto events in the nominal HEM15/16 sectors: jet pt > 30 GeV & -1.57 < phi < -0.87 & -3.0 < eta < -1.3              
-ApplySUSY1_HEMJetVeto2018 false   	# Veto events in extended HEM15/16 sectors: jet pt > 30 GeV & -1.77 < phi < -0.67 & -3.2 < eta < -1.2 
-ApplySUSY2_HEMJetVeto2018 true		# Veto events in extended HEM15/16 sectors + deltaPhi(j,MHT) : jet pt > 30 GeV & -1.77 < phi < -0.67 & -3.2 < eta < -1.2 & dPhi(j,MHT) < 0.5
-
 /// ------ Data-specific cuts ------///
 FilterDataByGoldenJSON true
+ApplyHEMVeto2018 false
+ApplyExtendedHEMVeto2018 true
 
 /// ------ MC Gen-level cuts ------///
 /// --- HT filter --- ///
@@ -53,8 +51,8 @@ Trigger1FirstRequirement HLT_PFMETNoMu120_PFMHTNoMu120_IDTight
 Trigger1SecondRequirement HLT_PFMETNoMu120_PFMHTNoMu120_IDTight
 UseTriggerWildcard false
 
-# Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg
-# Trigger2SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
+/// Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg
+/// Trigger2SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
 
 ///---Treat Muon as Neutrino---///
 
