@@ -5,7 +5,7 @@
 DiscrByDeltaR  true
 DeltaRCut      0.4
 
-DiscrByOSLSType  No		#### OS or LS
+DiscrByOSLSType  LS		#### OS or LS
 
 DiscrByCosDphi	 false			# dPhi is calculated between Tau1 and Tau2 
 CosDphiCut 	 -1.00   -0.80

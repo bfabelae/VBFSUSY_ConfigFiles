@@ -37,8 +37,8 @@ NGenTau		0  -1
 ***NRecoMuon1	      0    0   
 ***NRecoElectron1     0    0   
 ***NRecoBJet	      0    0
-***NRecoJet1	      1   -1   
-***NRecoJet2	      2   -1   
+***NRecoJet1	      0   -1   
+***NRecoJet2	      0   -1   
 ***NDiJetCombinations 0    0
 
 NRecoElectron2	      0   -1

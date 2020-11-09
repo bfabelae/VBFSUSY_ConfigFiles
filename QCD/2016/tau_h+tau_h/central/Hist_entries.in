@@ -161,7 +161,9 @@ Jet1Energy   200   0.   500.
 Jet1Pt       200   0.   500.
 Jet1Eta      100  -5.0   +5.0
 Jet1Phi      144  -6.3   +6.3
-Jet1MinDPhiMet 144  -6.3    +6.3
+Jet1DphiMet       126  -6.3    +6.3
+Jet1AbsDPhiMet     63   0.0    +6.3
+Jet1MinAbsDPhiMet 126  -6.3    +6.3
 
 FillJet2 1
 
@@ -170,7 +172,9 @@ Jet2Energy   200   0.   500.
 Jet2Pt       200   0.   500.
 Jet2Eta      100  -5.0   +5.0
 Jet2Phi      144  -6.3   +6.3
-Jet2MinDPhiMet 144  -6.3  +6.3
+Jet2DphiMet       126  -6.3  +6.3
+Jet2AbsDPhiMet     63   0.0  +6.3
+Jet2MinAbsDPhiMet 126  -6.3  +6.3
 
 FillBJet 1
 
@@ -327,7 +331,7 @@ Muon1MetDeltaPhiVsDiMuonCosDphi   72  0   +3.15  220    -1.1    1.1
 
 //------------------------------------------------//
 
-FillDiTau 0
+FillDiTau 1
 
 DiTau_Tau1DiJetDeltaPhi          72     0    +3.15
 DiTau_Tau2DiJetDeltaPhi          72     0    +3.15
