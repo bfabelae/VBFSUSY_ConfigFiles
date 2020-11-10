@@ -349,6 +349,27 @@ DiTauPZeta                      200  -100   100
 DiTauPZetaVis                   100     0   100
 DiTauZeta1D                     150  -300   300
 DiTauPt 					   500     0.    1000.
+
+DiTauJet1MetDPhi				126    -3.15  +3.15
+DiTauJet1MetDPhiOS				126    -3.15  +3.15
+DiTauJet1MetDPhiLS				126    -3.15  +3.15
+DiTauJet1MetAbsDPhi				126     0.0    6.3
+DiTauJet1MetAbsDPhiOS			126     0.0    6.3
+DiTauJet1MetAbsDPhiLS			126     0.0    6.3
+DiTauJet1MetMinAbsDPhi			126     0.0    6.3
+DiTauJet1MetMinAbsDPhiOS		126     0.0    6.3
+DiTauJet1MetMinAbsDPhiLS		126     0.0    6.3
+
+DiTauJet2MetDPhi				126	   -3.15  +3.15
+DiTauJet2MetDPhiOS				126	   -3.15  +3.15
+DiTauJet2MetDPhiLS				126	   -3.15  +3.15
+DiTauJet2MetAbsDPhi				126     0.0    6.3
+DiTauJet2MetAbsDPhiOS			126     0.0    6.3
+DiTauJet2MetAbsDPhiLS			126     0.0    6.3
+DiTauJet2MetMinAbsDPhi			126	    0.0    6.3
+DiTauJet2MetMinAbsDPhiOS		126     0.0    6.3
+DiTauJet2MetMinAbsDPhiLS		126     0.0    6.3
+
 DiTauNotReconstructableMass     200     0  5000
 DiTauReconstructableMass        2500    0  5000
 DiTauDiJetReconstructableMass   200	0  5000

@@ -45,9 +45,9 @@ LeadTrackThreshold 5.0
 DoDiscrByIsolation true
 // MVA: 1 = VVLoose, 2 = VLoose, 4 = Loose, 8 = Medium, 16 = Tight, 32 = VTight, 64 = VVTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
-DiscrByMinIsolation 32
-DiscrByMaxIsolation 2
-FlipIsolationRequirement false
+DiscrByMinIsolation 16
+DiscrByMaxIsolation 4
+FlipIsolationRequirement true
 DiscrByProngType true
 ProngType  1or3hps
 decayModeFindingNewDMs true
@@ -103,9 +103,9 @@ LeadTrackThreshold 5.0
 DoDiscrByIsolation true
 // MVA: 1 = VVLoose, 2 = VLoose, 4 = Loose, 8 = Medium, 16 = Tight, 32 = VTight, 64 = VVTight
 // DeepTau: 1 = VVVLoose, 2 = VVLoose, 4 = VLoose, 8 = Loose, 16 = Medium, 32 = Tight, 64 = VTight, 128 = VVTight
-DiscrByMinIsolation 32
-DiscrByMaxIsolation 2
-FlipIsolationRequirement false
+DiscrByMinIsolation 16
+DiscrByMaxIsolation 4
+FlipIsolationRequirement true
 DiscrByProngType true
 ProngType  1or3hps
 decayModeFindingNewDMs true
