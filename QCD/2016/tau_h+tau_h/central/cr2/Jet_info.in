@@ -108,7 +108,7 @@ Apply2017EEnoiseVeto false
 	 FirstLeadingJet
 ###################################
 
-DoDiscrByThisJet 1
+DoDiscrByThisJet 0
 
 EtaCut 0.0 4.7
 PtCut 30.0
