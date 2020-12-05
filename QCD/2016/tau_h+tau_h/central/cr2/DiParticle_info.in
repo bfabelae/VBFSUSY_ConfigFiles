@@ -2,17 +2,17 @@
               DiTau
 #######################################
 
-DiscrByDeltaR  true
+DiscrByDeltaR  1
 DeltaRCut      0.4
 
-DiscrByOSLSType  LS		#### OS or LS
+DiscrByOSLSType  No		#### OS or LS
 
 DiscrByCosDphi	 false			# dPhi is calculated between Tau1 and Tau2 
 CosDphiCut 	 -1.00   -0.80
 
-DiscrByMassReco  true
+DiscrByMassReco  false
 HowCalculateMassReco  NONE       ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
-MassCut          100.0   9999.9
+MassCut          0.0   100.0
 
 DiscrByCDFzeta2D          false
 PZetaCutCoefficient       1.0
@@ -50,14 +50,14 @@ DiLeadMassDeltaPtCut   0.0   9000.0
 #####################################
 
 DiscrByDeltaR  1
-DeltaRCut      0.4
+DeltaRCut      0.4 
 
 DiscrByOSLSType  No
 
 DiscrByCosDphi	 0				# dPhi is calculated between Muon1 and Muon2 
 CosDphiCut 	 -1.00   -0.95
 
-DiscrByMassReco  true
+DiscrByMassReco  false
 HowCalculateMassReco NONE     ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
 MassCut          75.0   105.0
 
@@ -97,11 +97,11 @@ DiLeadMassDeltaPtCut   0.0   9000.0
 #######################################
 
 DiscrByDeltaR  1
-DeltaRCut      0.4
+DeltaRCut      0.4 
 
 DiscrByOSLSType  No
 
-DiscrByCosDphi	 true				# dPhi is calculated between Electron1 and Electron2 
+DiscrByCosDphi	 false				# dPhi is calculated between Electron1 and Electron2 
 CosDphiCut 	 -1.00   -0.95
 
 DiscrByMassReco  0
@@ -159,3 +159,4 @@ CosDphiCut  -1.00 -0.80
 
 DiscrByMassReco true
 MassCut 500.0 9999.0
+
