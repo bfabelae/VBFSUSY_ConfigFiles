@@ -2,7 +2,7 @@
                 Run
 ####################################
 
-CalculatePUSystematics true
+CalculatePUSystematics false
 DataHistos PileUpReweighting2016.root       # 2016: PileUpReweighting2016.root, 2017: PileUpReweighting2017.root, 2018: PileUpReweighting2018.root
 MCHistos mc2016_pileup_Dec2018reReco.root   # 2016: mc2016_pileup_Dec2018reReco.root, 2017: mc2017_pileup_Dec2018reReco.root, 2018: 2016: mc2018_pileup_Dec2018reReco.root
 DataPUHistName pileup
@@ -21,17 +21,17 @@ ApplyTauAntiMuSF false
 
 isData false
 ApplyGenWeight  true
-UsePileUpWeight true
+UsePileUpWeight false
 
 ApplyISRZBoostSF false 			# Z-boost weight corrections derived for ISR+stau analysis (SUS-19-002)
 ApplySUSYZBoostSF false 		# Official Z-boost weight corrections derived by the SUSY PAG.
-ApplyVBFSusyZBoostSF true 		# Weights derived by the VBF SUSY team - Run II
+ApplyVBFSusyZBoostSF false 		# Weights derived by the VBF SUSY team - Run II
 
-ApplyL1PrefiringWeight true
+ApplyL1PrefiringWeight false
 UseJetEMPt false
 
 /// ------ Data-specific cuts ------///
-FilterDataByGoldenJSON true
+FilterDataByGoldenJSON false
 ApplyHEMVeto2018 false
 
 /// ------ MC Gen-level cuts ------///

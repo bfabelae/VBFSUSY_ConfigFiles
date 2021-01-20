@@ -192,6 +192,6 @@ ApplyJetBTaggingDeepFlav 0
 
 JetBTaggingWP   medium
 JetBTaggingCut  0.6321
-MatchBToGen     0
+MatchBToGen     1
 UseBtagSF       0
 RemoveBJetsFromJets 0
