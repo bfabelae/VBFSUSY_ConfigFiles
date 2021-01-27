@@ -62,8 +62,8 @@ TreatMuonsAsTaus 0
 ///-----MET cuts------///
 ApplyMetFilters true
 MT2Mass 0.
-DiscrByMet false
-MetCut 0.0 10000.0
+DiscrByMet true
+MetCut 200.0 10000.0
 
 DiscrByMHT false
 MhtCut 50.0
