@@ -40,7 +40,7 @@ Tau2MatchingDeltaR 0.4
 RemoveOverlapWithJs 0
 JMatchingDeltaR 0.8
 
-RemoveOverlapWithBs 0
+RemoveOverlapWithBs 1
 BJMatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
@@ -73,7 +73,7 @@ Tau2MatchingDeltaR 0.4
 RemoveOverlapWithJs 0
 JMatchingDeltaR 0.8
 
-RemoveOverlapWithBs 0
+RemoveOverlapWithBs 1
 BJMatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
