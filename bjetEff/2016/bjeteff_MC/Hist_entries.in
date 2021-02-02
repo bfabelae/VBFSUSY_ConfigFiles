@@ -177,7 +177,7 @@ BJetEnergy   200   0.    500.
 BJetPt       200   0.    500.
 BJetEta       72  -3.6    +3.6
 BJetPhi       36  -3.15   +3.15
-BJetPtVsEta   10 -2.5 2.5 40 0. 1000.
+BJetPtVsEta   50 -2.5 2.5 500 0. 1000.
 
 FillCentralJet 0
 
