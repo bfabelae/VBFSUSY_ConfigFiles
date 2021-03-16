@@ -21,7 +21,9 @@ PartonFlavorRange  0    22
 DiscrBJetByPtandEta  true
 BJetPtCut 20.0 9999.9
 BJetEtaCut 2.5
-DiscrByMotherID 6
+DiscrBJetByMotherID true
+BJetMotherID 6
+BJetQuarkDeltaR 0.2
 
 DiscrLightLepByMotherID 0
 LightLepMotherIDs 23. 24.
