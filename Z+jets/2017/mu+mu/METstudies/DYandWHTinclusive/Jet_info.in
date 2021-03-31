@@ -6,7 +6,8 @@ SmearTheJet 1
 GenMatchingDeltaR 0.2
 ResolutionMatching 1
 MuonMatchingDeltaR  0.2
-ModifiedPUsmearing 0
+ModifiedPUsmearing 1
+ModifiedForwardSmearing 0
 
 ########################################
                Jet1
@@ -44,7 +45,7 @@ JMatchingDeltaR 0.8
 RemoveOverlapWithBs 0
 BJMatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ########################################
 	        Jet2
@@ -82,7 +83,7 @@ JMatchingDeltaR 0.8
 RemoveOverlapWithBs 0
 BJMatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ####################################
           CentralJet
@@ -113,7 +114,7 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR 0.4
 Tau2MatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ####################################
 	 FirstLeadingJet
@@ -147,7 +148,7 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR 0.4
 Tau2MatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ####################################
 	 SecondLeadingJet
@@ -181,7 +182,7 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR 0.4
 Tau2MatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ###################################
     	     BJet
@@ -213,14 +214,14 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR 0.4
 Tau2MatchingDeltaR 0.4
 
-Apply2017EEnoiseVeto false
+Apply2017EEnoiseVeto true
 
 ApplyJetBTaggingCSVv2 0
 ApplyJetBTaggingDeepCSV 1
 ApplyJetBTaggingDeepFlav 0
 
 JetBTaggingWP   medium
-JetBTaggingCut  0.4184
+JetBTaggingCut  0.4941
 MatchBToGen     0
 UseBtagSF       1
 RemoveBJetsFromJets 0
