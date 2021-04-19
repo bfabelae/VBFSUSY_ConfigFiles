@@ -11,13 +11,13 @@ TauMotherIDs   23.  24.
 DiscrElecByPtAndEta   false
 ElecPtCut  -10.0    100000.0
 ElecEtaCut  10.0
-DiscrElecByMotherID   1
+DiscrElecByMotherID   0
 ElecMotherIDs   15.   15.
 
 DiscrMuonByPtAndEta   false
 MuonPtCut   -10.0   100000.0
 MuonEtaCut   10.0
-DiscrMuonByMotherID   1
+DiscrMuonByMotherID   0
 MuonMotherIDs    15.   15.
 
 DiscrHadTauByPtAndEta false
