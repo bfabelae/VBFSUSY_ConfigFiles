@@ -3,7 +3,7 @@
 ####################################
 
 CalculatePUSystematics false
-DataHistos PileUpReweighting2017.root       # 2016: PileUpReweighting2016.root, 2017: PileUpReweighting2017.root, 2018: PileUpReweighting2018.root
+DataHistos PileUpReweighting2016.root       # 2016: PileUpReweighting2016.root, 2017: PileUpReweighting2017.root, 2018: PileUpReweighting2018.root
 MCHistos mc2016_pileup_Dec2018reReco.root   # 2016: mc2016_pileup_Dec2018reReco.root, 2017: mc2017_pileup_Dec2018reReco.root, 2018: 2016: mc2018_pileup_Dec2018reReco.root
 DataPUHistName pileup
 MCPUHistName pileup
@@ -38,7 +38,7 @@ ApplyEEnoiseVeto2017EF false
 
 /// ------ MC Gen-level cuts ------///
 /// --- HT filter --- ///
-DiscrByGenHT true
+DiscrByGenHT false
 LowerGenHtCut 0.0
 UpperGenHtCut 100.0
 
